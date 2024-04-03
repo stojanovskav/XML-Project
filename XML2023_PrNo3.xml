@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="monastery.xsl"?>
+<!DOCTYPE Monastery_Catalog SYSTEM "monastery.dtd"[
+    <!NOTATION JPG SYSTEM "image/jpg">
+
+    <!ENTITY Bachkovo SYSTEM "images/BachkovoMonastery.jpg" NDATA JPG> 
+    <!ENTITY Rila SYSTEM "images/RilaMonastery.jpg" NDATA JPG> 
+    <!ENTITY Cherepish SYSTEM "images/CherepishMonastery.jpg" NDATA JPG> 
+    <!ENTITY Dryanovo SYSTEM "images/Dryanovo.jpg" NDATA JPG> 
+    <!ENTITY Kremikovtsi SYSTEM "images/KremikovtsiMonastery.jpg" NDATA JPG>
+    <!ENTITY Rozhen SYSTEM "images/RozhenMonastery.jpg" NDATA JPG> 
+    <!ENTITY Shipka SYSTEM "images/ShipkaMonastery.jpg" NDATA JPG>
+]>
+
+<Monastery_Catalog>
+    <Regions>
+        <Region region_id="SW">
+            <direction>SouthWest</direction>
+        </Region>
+        <Region region_id="SE">
+            <direction>SouthEast</direction>
+        </Region>
+        <Region region_id="NE">
+            <direction>NorthEast</direction>
+        </Region>
+        <Region region_id="NW">
+            <direction>NorthWest</direction>
+        </Region>
+        <Region region_id="C">
+            <direction>Central</direction>
+        </Region>
+    </Regions>
+   
+    <Monasteries>
+        <Monastery monastery_id="BM" region_ref="SW" church1_ref="CPetr" church2_ref="SvN" abbot1_ref="YS" abbot2_ref="Arh">
+            <name>Bachkovo Monastery</name>
+            <image src="Bachkovo"/>
+            <construction_year>1083</construction_year>
+            <area>7900</area>
+            <description>Bachkovo monastery is the second largest monastery in Bulgaria. It is beautifully situated on a ledge, on the right from the Valley of Chepelarska River, close to the village of Bachkovo, 30 km from Plovdiv.
+                          This easy accessibility makes it the second most visited monastery in the country. During the weekends and on big orthodox holidays large groups of tourists come to pay a visit.
+                          The climate is favourable, as the spot is in the heart of the Rhodope Mountains. The summers are breezy and the winters mild.
+                          It includes two yards and four churches. The monastery has 18 chapels, 10 in Asenovgrad and 8 around it.</description>
+        </Monastery> 
+            
+        <Monastery monastery_id="DM" region_ref="C" church1_ref="SB" church2_ref="AM" abbot1_ref="TD" abbot2_ref="VD">
+            <name>Dryanovo Monastery</name>
+            <image src="Dryanovo"/>
+            <construction_year>1300</construction_year>
+            <area>3100</area>
+            <description>The Dryanovo Monastery was established in the 12th century. The monastery was first built 2 km from the place where it is situated now. In 1393, the Ottoman Turks burned it down to ashes, in the 16th century, the local people restored it on the other bank of the river, but this time the holy monastery was also demolished.
+                On the place where it is situated now, the monastery “St. Archangel Michael” exists from the end of the 17th century. In the monastery, there was an enormous library which turned it into one of the largest education centers during the Revival. The bandits who were acting in groups in the Ottoman Empire set the monastery on fire for the third time.
+                In the 19th century, a renovation of the holy monastery began, residential buildings were constructed, and it was restored again.</description>
+        </Monastery>
+
+        <Monastery monastery_id="SM" region_ref="C" church1_ref="CRH" church2_ref="CSB" abbot1_ref="KV" abbot2_ref="YSh">
+            <name>Shipka Monastery</name>
+            <image src="Shipka"/>
+            <construction_year>1902</construction_year>
+            <area>4200</area>
+            <description>Shipka Monastery "Rozhdestvo Hristovo" is located on the outskirts of the town of Shipka.
+                         The funds for the construction were donated by the Russian people, and the residents of the town of Shipka.
+                         Its construction began in 1885 and ended in 1902. The monastery was Russian until 1934, when the Soviet government handed it over to Bulgaria.
+                         Today, the Shipka Monastery is part of the "Shipka - Buzludzha" park-museum.</description>
+        </Monastery>
+
+        <Monastery monastery_id="RozhenM" region_ref="SW" church1_ref="MI" church2_ref="SKM" abbot1_ref="IR" abbot2_ref="GiG"> 
+            <name>Rozhen Monastery</name>
+            <image src="Rozhen"/>
+            <construction_year>1397</construction_year>
+            <area>2890</area>
+            <description>The Rozhen monastery of the “Nativity of the Mother of God”, one of the oldest medieval monasteries in Bulgaria, only a few kilometers away from the town of Melnik and near the famous Melnik Pyramids, is among the most precious jewels in Pirin Mountain.
+                         Its unique architecture, rich history, and collection of valuable icons attract hundreds of visitors from the country and abroad.</description>
+        </Monastery>
+        
+        <Monastery monastery_id="KM" region_ref="SW" church1_ref="KE" church2_ref="SIR" abbot1_ref="BG" abbot2_ref="DT">
+            <name>Kremikovtsy Monastery</name>
+            <image src="Kremikovtsi"/>
+            <construction_year>1890</construction_year>
+            <area>3300</area>
+            <description>The Kremikovtsi Monastery of Saint George is a Bulgarian Orthodox monastery near Kremikovtsi to the northeast of the Bulgarian capital Sofia.
+                         Founded during the Second Bulgarian Empire (12th–14th century) and re-established in 1493 by a local Bulgarian noble, the monastery includes two churches.
+                         Of these, the older medieval church is notable for its highly regarded 15th-century frescoes.</description>
+        </Monastery>
+
+        <Monastery monastery_id="CH" region_ref="NW" church1_ref="CSV" church2_ref="CUB" abbot1_ref="DC" abbot2_ref="EA">
+            <name>Cherepish Monastery</name>
+            <image src="Cherepish"/>
+            <construction_year>1400</construction_year>
+            <area>3400</area>
+            <description>The Cherepish monastery “Uspenie Bogorodichno (“The Assumption of Mary”) is situated in the Iskar gorge by the shore of the river Iskar.
+                         In the monastery statute, which was written in the period between 1390 and 1396, it is mentioned that the monastery was destroyed during one of the last battles with the Ottoman invaders, which took place in that region.
+                         During the Bulgarian National Revival the monastery became a cultural and educational centre. A church school was founded and books, martyrologies and gospels were written and rewritten.
+            </description>
+        </Monastery>
+
+        <Monastery monastery_id="RM" region_ref="SW" church1_ref="BB" church2_ref="SL" abbot1_ref="IvR" abbot2_ref="NR">
+            <name>Rila Monastery</name>
+            <image src="Rila"/>
+            <construction_year>1344</construction_year>
+            <area>8800</area>
+            <description>The Monastery of Saint John of Rila, also known as Rila Monastery "Sveti Ivan Rilski", is the largest and most famous Eastern Orthodox monastery in Bulgaria. It is situated in the southwestern Rila Mountains, inside of Rila Monastery Nature Park.
+                         The monastery is named after its founder, the hermit Ivan of Rila, and houses around 60 monks.
+                         Founded in the 10th century, the Rila Monastery is regarded as one of Bulgaria's most important cultural, historical and architectural monuments and is a key tourist attraction for both Bulgaria and Southern Europe.
+                         The monastery is depicted on the reverse of the 1 lev banknote, issued in 1999.</description>
+        </Monastery>
+    </Monasteries>
+
+    <Churches>
+        <Church church_id="CPetr" abbot_ref="YS">
+            <church_name>Church Petriotris</church_name>
+            <church_area>432</church_area>
+        </Church>
+        <Church church_id="SvN" abbot_ref="Arh">
+            <church_name>Church sveti Nikola</church_name>
+        </Church>
+        <Church church_id="UPB" abbot_ref="YD">
+            <church_name>Uspenie na Presveta Bogorodica</church_name>
+            <church_area>560</church_area>
+        </Church>
+        <Church church_id="SB" abbot_ref="TD">
+            <church_name>Church St Boruna</church_name>
+        </Church>
+        <Church church_id="USB">
+            <church_name>Uspenie na St Bogorodica</church_name>
+        </Church>
+        <Church church_id="AM" abbot_ref="VD">
+            <church_name>Church Arhangel Mihail</church_name>
+            <church_area>480</church_area>
+        </Church>
+        <Church church_id="CRH" abbot_ref="KV">
+            <church_name>Church Rojdestvo Hristovo</church_name>
+            <church_area>540</church_area>
+        </Church>
+        <Church church_id="CSB" abbot_ref="YSh">
+            <church_name>Church St Bogorodica</church_name>
+            <church_area>500</church_area>
+        </Church>
+        <Church church_id="MI" abbot_ref="IR">
+            <church_name>Monastery Ivirion</church_name>
+            <church_area>320</church_area>
+        </Church>
+        <Church church_id="SKM" abbot_ref="GiG">
+            <church_name>St Kiril i Metodii</church_name>
+            <church_area>320</church_area>
+        </Church>
+        <Church church_id="KE" abbot_ref="BG">
+            <church_name>Church sveti sveti Konstantin i Elena</church_name>
+            <church_area>345</church_area>
+        </Church>
+        <Church church_id="SIR" abbot_ref="DT">
+            <church_name>Church St Ivan Rilski</church_name>
+            <church_area>320</church_area>
+        </Church>
+        <Church church_id="CSV" abbot_ref="DC">
+            <church_name>Church St Nikola</church_name>
+        </Church>
+        <Church church_id="CUB" abbot_ref="EA">
+            <church_name>Church Uspenie Bogorodichno</church_name>
+            <church_area>550</church_area>
+        </Church>
+        <Church church_id="BB">
+            <church_name>Birth of Bogorodica</church_name>
+        </Church>
+        <Church church_id="SL">
+            <church_name>St Luka</church_name>
+        </Church>
+    </Churches>
+
+    <Abbots>
+        <Abbot abbot_id="Arh" church_ref="SvN">
+            <abbot_name>Arhimandrit</abbot_name>
+            <age>48</age>
+        </Abbot>
+        <Abbot abbot_id="YS" church_ref="CPetr">
+            <abbot_name>Yosif Stroitelq</abbot_name>
+            <age>63</age>
+        </Abbot>
+        <Abbot abbot_id="YD" church_ref="UPB">
+            <abbot_name>Yoan Dragovitiiski</abbot_name>
+            <age>59</age>
+        </Abbot>
+        <Abbot abbot_id="TD" church_ref="SB">
+            <abbot_name>Teofilakt Dryanovski</abbot_name>
+            <age>83</age>
+        </Abbot>
+        <Abbot abbot_id="VD" church_ref="AM">
+            <abbot_name>Vasilii Dryanovski</abbot_name>
+            <age>70</age>
+        </Abbot>
+        <Abbot abbot_id="YSh" church_ref="CSB">
+            <abbot_name>Yosif Shipchenski</abbot_name>
+            <age>88</age>
+        </Abbot>
+        <Abbot abbot_id="KR" church_ref="SW">
+            <abbot_name>Kiril Rozhenski</abbot_name>
+        </Abbot>
+        <Abbot abbot_id="GiG" church_ref="SKM">
+            <abbot_name>Gerasim I Georgiev</abbot_name>
+            <age>68</age>
+        </Abbot>
+        <Abbot abbot_id="BG" church_ref="KE">
+            <abbot_name>Boiko Gradichevski</abbot_name>
+            <age>77</age>
+        </Abbot>
+        <Abbot abbot_id="DT" church_ref="SIR">
+            <abbot_name>Dimitar Todorov</abbot_name>
+            <age>71</age>
+        </Abbot>
+        <Abbot abbot_id="DC" church_ref="CSV">
+            <abbot_name>David Cherpishki</abbot_name>
+            <age>57</age>
+        </Abbot>
+        <Abbot abbot_id="EA" church_ref="CUB">
+            <abbot_name>Evgenii Adrionopolski</abbot_name>
+        </Abbot>
+        <Abbot abbot_id="KV" church_ref="CRH">
+            <abbot_name>Kalin Vrachanski</abbot_name>
+            <age>63</age>
+        </Abbot>
+        <Abbot abbot_id="IR" church_ref="MI">
+            <abbot_name>Ioakim Rozhenski</abbot_name>
+            <age>65</age>
+        </Abbot>
+        <Abbot abbot_id="IvR" church_ref="BB">
+            <abbot_name>Ivan Rilski</abbot_name>
+            <age>72</age>
+        </Abbot>
+        <Abbot abbot_id="NR" church_ref="SL">
+            <abbot_name>Neofit Rilski</abbot_name>
+            <age>68</age>
+        </Abbot>
+    </Abbots>
+  
+</Monastery_Catalog>
+  

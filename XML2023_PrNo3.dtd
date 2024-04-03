@@ -1,0 +1,34 @@
+<!ELEMENT Monastery_Catalog (Regions, Monasteries, Churches, Abbots)>
+<!ELEMENT Regions (Region*)>
+<!ELEMENT Region (direction)>
+<!ATTLIST Region region_id ID #REQUIRED>
+<!ELEMENT direction (#PCDATA)>
+
+<!ELEMENT Monasteries (Monastery*)>
+<!ELEMENT Monastery (name, image, construction_year, area, description)>
+<!ATTLIST Monastery monastery_id ID #REQUIRED
+          region_ref IDREF #REQUIRED
+          church1_ref IDREF #REQUIRED
+          church2_ref IDREF #REQUIRED
+          abbot1_ref IDREF #REQUIRED
+          abbot2_ref IDREF #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT image EMPTY>
+<!ATTLIST image src ENTITY #REQUIRED>
+<!ELEMENT construction_year (#PCDATA)>
+<!ELEMENT area (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT Churches (Church*)>
+<!ELEMENT Church (church_name, church_area?)>
+<!ATTLIST Church church_id ID #REQUIRED
+          abbot_ref IDREF #IMPLIED>
+<!ELEMENT church_name (#PCDATA)>
+<!ELEMENT church_area (#PCDATA)>
+
+<!ELEMENT Abbots (Abbot*)>
+<!ELEMENT Abbot (abbot_name, age?)>
+<!ATTLIST Abbot abbot_id ID #REQUIRED
+          church_ref IDREF #REQUIRED>
+<!ELEMENT abbot_name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
